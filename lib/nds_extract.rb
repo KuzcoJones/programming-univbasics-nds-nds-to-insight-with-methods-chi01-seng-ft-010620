@@ -21,6 +21,7 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
+result = {}
 i_directors = 0 
 grand_total = 0
 total_gross = 0
