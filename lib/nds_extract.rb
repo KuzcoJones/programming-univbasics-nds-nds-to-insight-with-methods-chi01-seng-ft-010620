@@ -15,6 +15,12 @@ total_gross = 0
   total_gross
 end
 
+#understanding the method 
+#gross_for_director 
+#returns the total_gross for a director
+#it replaces the while loop
+#variables it needs to run are movies, directors and the nds 
+#gross_for_director(nds, i_directors, i_movies)
 
 def directors_totals(nds)
   my_hash = {}
@@ -29,9 +35,9 @@ def directors_totals(nds)
     
     #make directors_name searchable
     while i_movies < nds[i_directors][:movies].length do 
-    movie_gross = nds[i_directors][:movies][i_movies][:worldwide_gross]
-    total_gross += movie_gross
-    i_movies += 1 
+      movie_gross = nds[i_directors][:movies][i_movies][:worldwide_gross]
+      total_gross += movie_gross
+      i_movies += 1 
     end
     my_hash[directors_name] = total_gross
     i_directors += 1 
