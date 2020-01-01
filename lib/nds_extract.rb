@@ -3,7 +3,6 @@ require 'directors_database'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-
 def gross_for_director(director_data) 
   #loops through directors data to give the 
   #total gross from a director
@@ -21,7 +20,7 @@ end
 #returns the total_gross for a director
 #it replaces the while loop
 #variables it needs to run are movies, directors and the nds 
-#gross_for_director(i_movies, total_gross)
+#gross_for_director(diri_movies, total_gross)
 
 def directors_totals(nds)
   my_hash = {}
