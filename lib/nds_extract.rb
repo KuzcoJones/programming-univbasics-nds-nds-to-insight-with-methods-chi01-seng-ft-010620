@@ -17,15 +17,5 @@ end
 
 
 def directors_totals(nds)
-result = {}
-i_directors = 0 
-grand_total = 0
-total_gross = 0
-while i_directors < nds.length do 
- directors_name = nds[i_directors][:name]
- i_movies = 0 
- i_directors += 1
-end
-  
 
 end
