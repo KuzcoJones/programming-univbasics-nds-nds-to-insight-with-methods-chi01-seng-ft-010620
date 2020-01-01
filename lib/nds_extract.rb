@@ -17,5 +17,5 @@ end
 
 
 def directors_totals(nds)
-
+  print director_data
 end
