@@ -17,5 +17,5 @@ end
 
 
 def directors_totals(nds)
-  nds[0][:movies].gross_for_director(director_data)
+ director_data(nds)
 end
