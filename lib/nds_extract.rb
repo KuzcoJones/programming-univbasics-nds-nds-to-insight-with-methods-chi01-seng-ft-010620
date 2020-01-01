@@ -28,11 +28,16 @@ def directors_totals(nds)
     directors_name = nds[i_directors][:name]
   
     #make directors_name searchable
-      
-    my_hash[directors_name] = gross_for_director(director_data, i_movies, total_gross)
+      while i_movies < nds[i_directors][:movies].length do 
+          movie_gross = nds[i_directors][:movies][i_movies][:worldwide_gross]
+          total_gross += movie_gross
+          i_movies += 1 
+      end
+    my_hash[directors_name] = total_gross
     i_directors += 1 
     
   end
 
   my_hash
+end
 end
