@@ -20,7 +20,7 @@ end
 #returns the total_gross for a director
 #it replaces the while loop
 #variables it needs to run are movies, directors and the nds 
-#gross_for_director(nds, i_directors, i_movies)
+#gross_for_director(i_movies, total_gross)
 
 def directors_totals(nds)
   my_hash = {}
